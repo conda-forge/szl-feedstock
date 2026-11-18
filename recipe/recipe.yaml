@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.7"
+  version: "0.1.8"
   python_min: "3.10"
 
 package:
@@ -9,8 +9,8 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/41/db/8919bf8fe7f8a1732a079d95adab1281aa18705f5d15f37f4143d52c7522/szl-0.1.7.tar.gz
-  sha256: fcd581fc7ee24e577d18fedda9361fe1e2231bb30233b111a996203b77bf0e9e
+  url: https://files.pythonhosted.org/packages/e0/23/8b7b9d1cabd421a0876ec78164487eb1bbee6e5d1fc2adfa2baebab503ce/szl-${{ version }}.tar.gz
+  sha256: 47aae1319ac05a1d8e880f255f5f1cd2e2816d23c03a93adc70f5575ebd325e3
 
 build:
   noarch: python
